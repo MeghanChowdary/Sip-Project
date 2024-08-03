@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sip project</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="shortcut icon" href="css/img/sip project logo.png" type="image/x-icon">
+    <script>
+        let a;
+        let time;
+        let date;
+        setInterval(() => {
+            a = new Date();
+            time = a.getHours() + ':' + a.getMinutes() + ':' + a.getSeconds();
+            date = a.toLocaleDateString();
+            document.getElementById('clock').innerHTML = "time: " + time + " date: " + date;
+        }, 1000);
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="siproject1.html"><img src="css/img/sip project logo.png" alt=""></a>
+            </div>
+            <ul>
+                <li><a href="siproject1.html">home </a></li>
+                <li><a href="about.html">about </a></li>
+                <li><a href="contact.html">contact </a></li>
+            </ul>
+            <!-- <div class="search">
+                <form action="/search.html" method="get" name="query">
+                    <input type="text" placeholder="search your item">
+                    <button class="btn"><img
+                            src="https://tse1.mm.bing.net/th?id=OIP.1Xh5hR-cKC1V7tBJl92I9wHaHa&pid=Api"></button>
+                </form>
+            </div>
+            <div class="cam">
+                <button>
+                    <a href="module.py"><img
+                            src="https://tse2.mm.bing.net/th?id=OIP.SZ2croVgU4_yLByEXLUT3AHaHJ&pid=Api" alt=""></a>
+                </button>
+            </div> -->
+        </nav>
+        <div id="clock" class="clok"></div>
+    </header>
+    <main>
+        <div class="container flex-all-center">
+            <div class="slider flex-all-center">
+                <div class="card flex-all-center">
+                    <div class="card-item flex-all-center">
+                        <a href="siproject1_1.html"><img
+                                src="https://tse4.mm.bing.net/th?id=OIP.KSJwx_nNOMOsA_oUwcIqpQHaE8&pid=Api"></a>
+                        <div class="lines" height="120px" width="120px">
+                            <p class="text-center my-2">click here to know about various kind of ayurvedic herbs</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <a href="siproject2.html"><img
+                                src="https://tse1.explicit.bing.net/th?id=OIP.UkT957PAjKmjeOF7Hk89jQHaD4&pid=Api"
+                                height="120px" width="120px"></a>
+                        <div class="lines">
+                            <p class="text-center my-2">if you are sick and you wanna cure click here</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="exinfo">
+                About Ayurveda
+                The original conception of Ayurveda in its entirety is essentially linked to Dhanwantari who is
+                considered as God of Hindu Medicine
+                Charaka
+
+                Charaka is called 'Father of Ayurveda'. In his book 'Charaka Samhita' he had mentioned about 340 plant
+                types and about 200 animal types.
+
+                Ayurveda, a natural system of medicine, originated in India more than 3,000 years ago. The term Ayurveda
+                is derived from the Sanskrit words ayur (life) and veda (science or knowledge). Thus, Ayurveda
+                translates to knowledge of life.
+                The origin of Ayurveda dates back to the Vedic era. Most material relating to the health and diseases
+                are available in Atharva veda. Historians claim that Ayurveda is a part of Atharva Veda. However RigVeda
+                which is the earliest Veda also mentions about diseases and medicinal plants.
+                Ayurveda believes that the entire universe is composed of five elements: Vayu (Air), Jala (Water),
+                Aakash (Space or ether), Prithvi (Earth) and Teja (Fire). These five elements (referred to as Pancha
+                Mahabhoota in Ayurveda) are believed to form the three basic humors of human body in varying
+                combinations.
+            </div>
+        </div>
+    </main>
+    <footer class="flex-all-center">
+        <p>copyright &copy; ancientayurveda.com</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index page</title>
+    <link rel="shortcut icon" href="/css/img/sip project logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script>
+        let a;
+        let time;
+        let date;
+        setInterval(() => {
+            a = new Date();
+            time = a.getHours() + ':' + a.getMinutes() + ':' + a.getSeconds();
+            date = a.toLocaleDateString();
+            document.getElementById('clock').innerHTML = "time: " + time + " date: " + date;
+        }, 1000);
+        cam = document.getElementById('cam');
+        cam.addEventListener('click', () => {
+
+        })
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="siproject1.html"><img src="css/img/sip project logo.png" alt=""></a>
+            </div>
+            <ul>
+                <li><a href="siproject1.html">home </a></li>
+                <li><a href="about.html" target="_blank">about </a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+        <div id="clock" class="clok"></div>
+    </header>
+    <main>
+        <div class="container flex-all-center">
+            <div class="director flex-all-center">
+                    <div class="indexbox flex-all-center">
+                        <a href="siproject1.html"><img src="css/img/sip project logo.png" alt="">Click here to enter into website</a>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+    <footer class="flex-all-center">
+        <p>copyright &copy; ancientayurveda.com</p>
+    </footer>
+</body>
+
+</html>

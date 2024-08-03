@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>siproject1_1_2</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="shortcut icon" href="css/img/sip project logo.png" type="image/x-icon">
+    <script>
+        let a;
+        let time;
+        let date;
+        setInterval(() => {
+            a = new Date();
+            time = a.getHours() + ':' + a.getMinutes() + ':' + a.getSeconds();
+            date = a.toLocaleDateString();
+            document.getElementById('clock').innerHTML = "time: " + time + " date: " + date;
+        }, 1000);
+        cam = document.getElementById('.cam');
+        cam.addEventListener('click', () => {
+
+        });
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="siproject1.html"><img src="css/img/sip project logo.png" alt=""></a>
+            </div>
+            <ul>
+                <li><a href="siproject1.html">home </a></li>
+                <li><a href="about.html">about </a></li>
+                <li><a href="contact.html">contact </a></li>
+            </ul>
+            <!-- <div class="search">
+                <input type="text" placeholder="search your item">
+                <button class="btn"><img
+                        src="https://tse1.mm.bing.net/th?id=OIP.1Xh5hR-cKC1V7tBJl92I9wHaHa&pid=Api"></button>
+            </div> -->
+        </nav>
+        <div id="clock" class="clok"></div>
+    </header>
+    <div class="herb_attributes">
+        <nav>
+            <h3 class="attribute flex-all-center m-auto">Introduction</h3>
+            <h3 class="attribute flex-all-center m-auto">Properties</h3>
+            <h3 class="attribute flex-all-center m-auto">Wayofuse</h3>
+            <h3 class="attribute flex-all-center m-auto">Myths and Facts</h3>
+            <h3 class="attribute flex-all-center m-auto">History</h3>
+            <!-- <h3 class="attribute flex-all-center m-auto">Useage</h3> -->
+        </nav>
+    </div>
+    <main>
+        <div class="container1_1">
+            <div class="ashwagandha">
+                <br>
+                <div class="introduction">
+                    <div class="size-box">
+                        Ashwagandha is a plant native to India and has been used in traditional medicine for centuries.
+                        It
+                        is a
+                        member of the nightshade family and its scientific name is Withania somnifera.
+                        <!-- introduction -->
+                    </div>
+                </div>
+                <div class=" properties">
+                    <div class="size-box">
+                        <b>properties of Ashwagandha</b>
+                        <br>
+                        <!-- properties -->Ashwagandha is an adaptogenic herb, meaning it helps the body adapt to
+                        stress. It
+                        is thought to have a number of potential health benefits, including reducing anxiety and stress,
+                        improving brain function, and reducing inflammation.
+                    </div>
+                </div>
+                <div class="wayofuse">
+                    <div class="size-box">
+                        <b>way to use Ashwagandha</b>
+                        <br>
+                        <!-- wayofuse -->Ashwagandha can be consumed in a variety of ways, including as a capsule,
+                        powder,
+                        or tea. It can also be taken as a tincture or applied topically as an oil or cream. The
+                        recommended
+                        dosage varies depending on the form of ashwagandha being used and the specific health condition
+                        being treated. It is important to consult with a healthcare provider before taking ashwagandha,
+                        as
+                        it can interact with certain medications and may not be safe for everyone.
+                    </div>
+                </div>
+                <div class="mythsandfacts">
+                    <div class="size-box">
+                        <b>myths and facts about Ashwagandha</b>
+                        <br>
+                        <!-- myths -->There are a number of myths and misconceptions about ashwagandha. Some people
+                        believe
+                        that it can increase fertility or improve sexual function.
+                        <br>
+                        <!-- facts -->there is limited scientific evidence to support these claims. It is also not
+                        proven to
+                        increase muscle mass or strength.
+                    </div>
+                </div>
+                <div class="history">
+                    <div class="size-box">
+                        <b>medicinal history of Ashwagandha</b>
+                        <br>
+                        <!--medicinal history -->Ashwagandha has a long history of use in traditional medicine and is
+                        mentioned in the Ayurvedic texts as a tonic for overall health and well-being. It is believed to
+                        have a number of potential health benefits, including reducing stress and anxiety, improving
+                        brain
+                        function, and reducing inflammation. However, more research is needed to fully understand the
+                        medicinal properties of ashwagandha and to determine the appropriate dosages and methods of use.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="flex-all-center">
+        <p>copyright &copy; ancientayurveda.com</p>
+    </footer>
+</body>
+<script src="js/sliding.js"></script>
+
+</html>

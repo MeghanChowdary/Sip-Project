@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>siproject1_2_2</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="shortcut icon" href="css/img/sip project logo.png" type="image/x-icon">
+    <script>
+        let a;
+        let time;
+        let date;
+        setInterval(() => {
+            a = new Date();
+            time = a.getHours() + ':' + a.getMinutes() + ':' + a.getSeconds();
+            date = a.toLocaleDateString();
+            document.getElementById('clock').innerHTML = "time: " + time + " date: " + date;
+        }, 1000);
+        cam = document.getElementById('.cam');
+        cam.addEventListener('click', () => {
+
+        });
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="siproject1.html"><img src="css/img/sip project logo.png" alt=""></a>
+            </div>
+            <ul>
+                <li><a href="siproject1.html">home </a></li>
+                <li><a href="about.html">about </a></li>
+                <li><a href="contact.html">contact </a></li>
+            </ul>
+            <!-- <div class="search">
+                <input type="text" placeholder="search your item">
+                <button class="btn"><img
+                        src="https://tse1.mm.bing.net/th?id=OIP.1Xh5hR-cKC1V7tBJl92I9wHaHa&pid=Api"></button>
+            </div> -->
+        </nav>
+        <div id="clock" class="clok"></div>
+    </header>
+    <div class="illness">
+        <nav>
+            <h3 class="attribute flex-all-center m-auto">Remedy</h3>
+            <h3 class="attribute flex-all-center m-auto">Ingridients</h3>
+            <h3 class="attribute flex-all-center m-auto">Recipie</h3>
+            <h3 class="attribute flex-all-center m-auto">Dosage</h3>
+        </nav>
+    </div>
+    <main>
+        <div class="container1_2">
+            <div class="sore_throat">
+                <div class="remedy">
+                    <div class="size-box"><b>SORE THROAT:-</b><br>
+                        <b>REMEDIES:-</b><br>
+                        •Gargling with Salt Water. <br>
+                        •Honey For a Sore Throat.<br>
+                        •Lemon to Boost The Immune System.<br>
+                        •Hot Sauce for Quick Pain Relief.<br>
+                        •Best Type of Tea for a Sore Throat.<br>
+                        •Humidifier to Open the Sinuses.<br>
+                    </div>
+                </div>
+                <div class="ingridients">
+                    <div class="size-box"><b>INGREDIENTS:-</b><br>
+                        •Warm water<br>
+                        •Salt<br>
+                        •Baking soda<br></div>
+                </div>
+                <div class="recipie">
+                    <div class="size-box"><b>RECIPE:-</b>
+                        <b>1.BAKING SODA GARGLE:-</b>
+                        Procedure for the recipe:-<br>
+                        •While the saltwater gargle is more commonly used, gargling with a baking soda-saltwater mixture<br>
+                        can also help relieve a sore throat. This oral solution can kill bacteria and prevent the growth
+                        of fungi.<br>
+                        •If you have a sore mouth, the National Cancer InstituteTrusted Source recommends gargling with
+                        and gently swishing around a combination of:<br>
+                        •1 cup warm water<br>
+                        •1/4 teaspoon of baking soda<br>
+                        •1/8 teaspoon of salt.<br></div>
+                </div>
+                <div class="dosage">
+                    <div class="size-box"><b>DOSAGE:-</b>
+                        1/2 teaspoon of salt <br>— or a similar amount of baking soda<br> — in a glass of warm water.<br> Gargle
+                        (but don’t swallow) the concoction every three hours for an all-natural sore throat remedy.<br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="flex-all-center">
+        <p>copyright &copy; ancientayurveda.com</p>
+    </footer>
+    <script src="js/sliding.js"></script>
+
+</html>

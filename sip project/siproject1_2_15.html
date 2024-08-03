@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>siproject1_2_15</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="shortcut icon" href="css/img/sip project logo.png" type="image/x-icon">
+    <script>
+        let a;
+        let time;
+        let date;
+        setInterval(() => {
+            a = new Date();
+            time = a.getHours() + ':' + a.getMinutes() + ':' + a.getSeconds();
+            date = a.toLocaleDateString();
+            document.getElementById('clock').innerHTML = "time: " + time + " date: " + date;
+        }, 1000);
+        cam = document.getElementById('.cam');
+        cam.addEventListener('click', () => {
+
+        });
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="siproject1.html"><img src="css/img/sip project logo.png" alt=""></a>
+            </div>
+            <ul>
+                <li><a href="siproject1.html">home </a></li>
+                <li><a href="about.html">about </a></li>
+                <li><a href="contact.html">contact </a></li>
+            </ul>
+            <!-- <div class="search">
+                <input type="text" placeholder="search your item">
+                <button class="btn"><img
+                        src="https://tse1.mm.bing.net/th?id=OIP.1Xh5hR-cKC1V7tBJl92I9wHaHa&pid=Api"></button>
+            </div> -->
+        </nav>
+        <div id="clock" class="clok"></div>
+    </header>
+    <div class="illness">
+        <nav>
+            <h3 class="attribute flex-all-center m-auto">Remedy</h3>
+            <h3 class="attribute flex-all-center m-auto">Ingridients</h3>
+            <h3 class="attribute flex-all-center m-auto">Recipie</h3>
+            <h3 class="attribute flex-all-center m-auto">Dosage</h3>
+        </nav>
+    </div>
+    <main>
+        <div class="container1_2">
+            <div class="fever">
+                <div class="remedy">
+                    <div class="size-box">In Ayurvedic medicine, there are several remedies that can be used to reduce
+                        fever and relieve its symptoms:
+                        <br>
+                        <b>Tulsi: </b>Tulsi, also known as holy basil, is an herb that is believed to have
+                        anti-inflammatory and antimicrobial properties, making it effective in reducing fever. It can be
+                        consumed as a tea by boiling fresh or dried tulsi leaves in water.
+                        <br>
+                        <b>Neem: </b>Neem is another herb commonly used in Ayurvedic medicine to treat fever. It is believed to
+                        have antifungal, antibacterial, and antiviral properties, and can be taken as a tea or in
+                        capsule form.
+                        <br>
+                        <b>Ginger: </b>Ginger is believed to have antipyretic (fever-reducing) properties, as well as
+                        anti-inflammatory effects that can relieve pain and discomfort associated with fever. Ginger can
+                        be consumed as a tea or added to food as a spice.
+                        <br>
+                        <b>Turmeric: </b>Turmeric is another herb commonly used in Ayurvedic medicine that is believed to have
+                        antipyretic properties. It can be taken as a tea or in supplement form.
+                        <br>
+                        <b>Ghee: </b>Ghee is a type of clarified butter that is commonly used in Ayurvedic medicine to treat
+                        fever and other illnesses. It is believed to have nourishing and soothing effects on the body.
+                        <br>
+                        These remedies can be used in conjunction with other traditional medical treatments for fever.
+                        <br><br>
+                    </div>
+                </div>
+                <div class="ingridients">
+                    <div class="size-box">Here are the ingredients for each of the Ayurvedic remedies for fever:
+                        <br>
+                        <b>Tulsi tea:</b>
+                        Fresh or dried tulsi leaves
+                        Water<br>
+                        <b>Neem tea:</b>
+                        Fresh or dried neem leaves
+                        Water<br>
+                        <b>Ginger tea:</b>
+                        Fresh ginger root
+                        Water<br>
+                        <b>Turmeric tea:</b>
+                        Fresh or dried turmeric root or turmeric powder
+                        Water<br>
+                        <b>Ghee:</b>
+                        Unsalted butter<br>
+                    </div>
+                </div>
+                <div class="recipie">
+                    <div class="size-box">Here are the recipes for each of the Ayurvedic remedies for fever:
+                        <br>
+                        <b>Tulsi tea: </b>
+                        Boil 2-3 fresh tulsi leaves or 1-2 teaspoons of dried tulsi leaves in a cup of water for 5-10
+                        minutes.
+                        Strain the tea and let it cool to a comfortable drinking temperature.
+                        Drink the tea while it's still warm.<br>
+                        <b>Neem tea:</b>
+                        Boil a handful of fresh or dried neem leaves in a cup of water for 5-10 minutes.
+                        Strain the tea and let it cool to a comfortable drinking temperature.
+                        Drink the tea while it's still warm.<br>
+                        <b>Ginger tea:</b>
+                        Slice or grate 1-inch piece of fresh ginger root.
+                        Boil the ginger slices or grated ginger in a cup of water for 5-10 minutes.
+                        Strain the tea and let it cool to a comfortable drinking temperature.
+                        Drink the tea while it's still warm.<br>
+                        <b>Turmeric tea:</b>
+                        Boil 1-2 teaspoons of fresh or dried turmeric root or turmeric powder in a cup of water for 5-10
+                        minutes.
+                        Strain the tea and let it cool to a comfortable drinking temperature.
+                        Drink the tea while it's still warm.<br>
+                        <b>Ghee:</b>
+                        Place a small saucepan on low heat and add 1 cup of unsalted butter.
+                        Let the butter melt and simmer until the solids at the bottom of the pan turn golden brown and
+                        the liquid on top is clear, about 15-20 minutes.
+                        Strain the ghee through a cheesecloth or fine mesh strainer into a clean, heat-resistant
+                        container.
+                        Store the ghee in an airtight container in a cool, dark place.<br>
+                    </div>
+                </div>
+                <div class="dosage">
+                    <div class="size-box">Here are the recommended dosages for each of the Ayurvedic remedies for fever:
+                        <br>
+                        <b>Tulsi tea: </b>Drink 1-2 cups of tulsi tea per day.
+                        <br>
+                        <b>Neem tea: </b>Drink 1-2 cups of neem tea per day.
+                        <br>
+                        <b>Ginger tea: </b>Drink 1-2 cups of ginger tea per day.
+                        <br>
+                        <b>Turmeric tea: </b>Drink 1-2 cups of turmeric tea per day.
+                        <br>
+                        <b>Ghee: </b>Take 1 teaspoon of ghee 1-2 times per day, either by itself or added to food.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="flex-all-center">
+        <p>copyright &copy; ancientayurveda.com</p>
+    </footer>
+</body>
+<script src="js/sliding.js"></script>
+
+</html>

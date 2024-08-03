@@ -1,0 +1,128 @@
+@media screen and (max-width:1000px) {
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .attribute {
+        height: 5vh;
+        width: 20vw;
+        padding: 0;
+        margin: auto;
+        font-size: small;
+    }
+
+    .logo img {
+
+        justify-content: center;
+    }
+
+    nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cam {
+        height: 5vh;
+        width: 5vh;
+        margin-left: 70vw;
+        /* border: 1vh var(--main-bg-color); */
+        border-radius: 100%;
+        /* transform: translateY(2vh); */
+    }
+
+    .cam button {
+        height: 5vh;
+        width: 5vh;
+        border-radius: 100%;
+        /* transform: translateY(2vh); */
+    }
+
+    .cam img {
+        height: 5vh;
+        width: 5vh;
+        border-radius: 100%;
+        /* background-position: (1vh,1vw); */
+    }
+
+    .container {
+        min-height: calc(100vh - 58px - 12vh);
+        background: url("img/sipbg.png");
+        font-family: 'Noto Serif Devanagari', serif;
+        background-attachment: scroll;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .slider {
+        margin: auto;
+        width: 80vw;
+        margin: 2vw auto;
+        -webkit-margin-collapse: collapse;
+    }
+
+    .card {
+        border: 2px solid black;
+        border-radius: 5px;
+        max-width: 91vw;
+        margin: auto;
+        display: inline-flex;
+        flex-wrap: wrap;
+        box-shadow: 5px 5px 20px 8px blanchedalmond;
+        overflow: scroll;
+    }
+
+    .card-item {
+        width: 15vw;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .card-item img {
+        border: 2px solid black;
+        border-radius: 10px;
+        /* margin: auto; */
+        height: 9vh;
+        width: 16vh;
+        margin: 12px auto;
+        box-shadow: 5px 5px 20px 8px blanchedalmond;
+        -webkit-margin-collapse: collapse;
+    }
+
+    .card {    
+        box-shadow: 0px 0px 20px 5px blanchedalmond;
+        -webkit-margin-collapse: collapse;
+    }
+
+    .lines {
+        margin-top: 0;
+        font-size: small;
+        font-family: 'Noto Serif Devanagari', serif;
+    }
+
+    .exinfo {
+        display: none;
+    }
+
+    .logo img {
+        width: 55vw;
+        height: 7vh;
+        padding: 0 1vw;
+    }
+
+    .director {
+        width: 70vw;
+        height: 20vh;
+        box-shadow: 0px 0px 20px 15px blanchedalmond;
+    }
+
+    .indexbox a img {
+        width: 55vw;
+        height: 7vh;
+    }
+}

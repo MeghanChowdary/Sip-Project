@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>siproject1_2_6</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="shortcut icon" href="css/img/sip project logo.png" type="image/x-icon">
+    <script>
+        let a;
+        let time;
+        let date;
+        setInterval(() => {
+            a = new Date();
+            time = a.getHours() + ':' + a.getMinutes() + ':' + a.getSeconds();
+            date = a.toLocaleDateString();
+            document.getElementById('clock').innerHTML = "time: " + time + " date: " + date;
+        }, 1000);
+        cam = document.getElementById('.cam');
+        cam.addEventListener('click', () => {
+
+        });
+    </script>
+     
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="siproject1.html"><img src="css/img/sip project logo.png" alt=""></a>
+            </div>
+            <ul>
+                <li><a href="siproject1.html">home </a></li>
+                <li><a href="about.html">about </a></li>
+                <li><a href="contact.html">contact </a></li>
+            </ul>
+            <!-- <div class="search">
+                <input type="text" placeholder="search your item">
+                <button class="btn"><img
+                        src="https://tse1.mm.bing.net/th?id=OIP.1Xh5hR-cKC1V7tBJl92I9wHaHa&pid=Api"></button>
+            </div> -->
+        </nav>
+        <div id="clock" class="clok"></div>
+    </header>
+    <div class="illness">
+        <nav>
+            <h3 class="attribute flex-all-center m-auto">Remedy</h3>
+            <h3 class="attribute flex-all-center m-auto">Ingridients</h3>
+            <h3 class="attribute flex-all-center m-auto">Recipie</h3>
+            <h3 class="attribute flex-all-center m-auto">Dosage</h3>
+        </nav>
+    </div>
+    <main>
+        <div class="container1_2">
+            <div class="stomach_ache">
+                <div class="remedy">
+                    <div class="size-box">STOMACHE ACHE
+                        <br>
+                        REMEDIES TO REDUCE STOMACH ACHE:-
+                        <br>
+                        •Lemon and Honey
+                        <br>
+                        •Pomegranate Seeds
+                        <br>
+                        •Mint Oil
+                        <br>
+                        •Home recipe for acid reflux
+                        </div>
+                </div>
+                <div class="ingridients">
+                    <div class="size-box"></div>
+                </div>
+                <div class="recipie">
+                    <div class="size-box">Procedure for the recipe:-
+                        <br>
+                        1.Lemon and Honey
+                        <br>
+                        Take 1 glass of warm water and add 1 teaspoon of lemon juice and 1 teaspoon of honey. Drink this mixture after every meal. This is one of the best and most effective home remedies for indigestion.
+                        <br>
+                        2.Pomegranate Seeds
+                        <br>
+                        Pomegranate when mixed with black salt and pepper is a great remedy for stomach pains.
+                        <br>
+                        3.Mint Oil
+                        <br>
+                        Add 2 drops of mint oil in a cup of warm water and drink immediately. It provides instant relief from gripping and flatulence.
+                        <br>
+                        4.Home recipe for acid reflux
+                        <br>
+                        Yogurt, water, rock salt, roasted jeera, ginger and coriander leaves.
+                        <br>
+                        Combine 1/4 cup plain yogurt with 3/4 cup water (or double this, keeping same ratio).
+                        <br>
+                        Mix well.
+                        <br>
+                        Add 1 tsp rock salt, pinch of roasted jeera (cumin) powder, a bit of grated ginger, and fresh coriander leaves.</div>
+                </div>
+                <div class="dosage">
+                    <div class="size-box"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="flex-all-center">
+        <p>copyright &copy; ancientayurveda.com</p>
+    </footer>
+<script src="js/sliding.js"></script>
+
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>siproject1_1_1</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="shortcut icon" href="css/img/sip project logo.png" type="image/x-icon">
+    <script>
+        let a;
+        let time;
+        let date;
+        setInterval(() => {
+            a = new Date();
+            time = a.getHours() + ':' + a.getMinutes() + ':' + a.getSeconds();
+            date = a.toLocaleDateString();
+            document.getElementById('clock').innerHTML = "time: " + time + " date: " + date;
+        }, 1000);
+        cam = document.getElementById('.cam');
+        cam.addEventListener('click', () => {
+
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="siproject1.html"><img src="css/img/sip project logo.png" alt=""></a>
+            </div>
+            <ul>
+                <li><a href="siproject1.html">home </a></li>
+                <li><a href="about.html">about </a></li>
+                <li><a href="contact.html">contact </a></li>
+            </ul>
+            <!-- <div class="search">
+                <input type="text" placeholder="search your item">
+                <button class="btn"><img
+                        src="https://tse1.mm.bing.net/th?id=OIP.1Xh5hR-cKC1V7tBJl92I9wHaHa&pid=Api"></button>
+            </div> -->
+        </nav>
+        <div id="clock" class="clok"></div>
+    </header>
+    <div class="herb_attributes">
+        <nav>
+            <h3 class="attribute flex-all-center m-auto">Introduction</h3>
+            <h3 class="attribute flex-all-center m-auto">Properties</h3>
+            <h3 class="attribute flex-all-center m-auto">Wayofuse</h3>
+            <h3 class="attribute flex-all-center m-auto">Myths and Facts</h3>
+            <h3 class="attribute flex-all-center m-auto">History</h3>
+            <!-- <h3 class="attribute flex-all-center m-auto">Useage</h3> -->
+        </nav>
+    </div>
+    <main>
+        <div class="container1_1">
+            <div class="amla">
+                <br>
+                <div class="introduction">
+                    <div class="size-box">
+                        Amla, also known as Indian gooseberry, is a small, round fruit that is native to India and grows
+                        on
+                        the
+                        Indian gooseberry tree (Phyllanthus emblica). It is a rich source of vitamins, minerals, and
+                        antioxidants, and has a variety of medicinal and nutritional benefits.</div>
+                </div>
+                <div class="properties">
+                    <br>
+                    <div class="size-box">
+                        <b>properties of amla</b>
+                        • Amla is high in vitamin C, making it a natural immune booster.<br>
+                        • It contains antioxidants that can help protect the body against oxidative stress and the
+                        effects
+                        of aging.<br>
+                        • Amla is also a good source of vitamin A, iron, and calcium.<br>
+                        • It has been traditionally used to support digestive health and may help with constipation and
+                        other digestive issues.<br>
+                        • Amla has been used in Ayurvedic medicine for centuries and is believed to have a number of
+                        medicinal properties, including anti-inflammatory, antiviral, and antibacterial effects.<br>
+                    </div>
+                </div>
+                <div class="wayofuse">
+                    <br>
+                    <div class="size-box">
+                        <b>way to use amla</b>
+                        • Amla can be consumed fresh, dried, or in the form of a juice or supplement.<br>
+                        • Fresh amla can be eaten raw or used in cooking, such as in chutneys or pickles.<br>
+                        • Dried amla can be ground into a powder and used as a spice or added to smoothies or other
+                        drinks.<br>
+                        • Amla juice can be purchased or made at home by blending fresh amla with water and straining
+                        the
+                        mixture.<br>
+                        • It can be consumed on its own or mixed with other juices or beverages.<br>
+                        • Amla supplements are available in the form of capsules, tablets, or extracts and can be taken
+                        according to the package instructions.<br>
+                    </div>
+                </div>
+                <div class="mythsandfacts">
+                    <div class="size-box">
+                        <b>myths and facts about Amla</b>
+                        <br>
+                        • Myth: Amla s sour and tastes bad.<br>
+                        <br>
+                        • Fact: While amla does have a sour taste, it is also sweet and has a unique, citrus-like
+                        flavor.<br>
+                        Some people may find the taste unpleasant at first, but many people come to enjoy it over time.<br>
+                    </div>
+                </div>
+                <div class="history">
+                    <div class="size-box">
+                        <b>medicinal history of Amla</b>
+                        <br>
+                        • Amla has a long history of use in Ayurvedic medicine and is considered a "rasayana," or
+                        rejuvenating herb, due to its believed ability to promote healthy aging and overall well-being.<br>
+                        • It has been traditionally used to support the immune system, improve digestion, and promote
+                        healthy skin and hair.<br>
+                        • In modern times, amla has been studied for its potential health benefits, including its
+                        antioxidant and anti-inflammatory effects. It has also been investigated for its potential role
+                        in
+                        managing diabetes, improving cardiovascular health, and supporting brain health.<br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="flex-all-center">
+        <p>copyright &copy; ancientayurveda.com</p>
+    </footer>
+</body>
+<script src="js/sliding.js"></script>
+
+</html>

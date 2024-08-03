@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>siproject1_1_12</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="shortcut icon" href="css/img/sip project logo.png" type="image/x-icon">
+    <script>
+        let a;
+        let time;
+        let date;
+        setInterval(() => {
+            a = new Date();
+            time = a.getHours() + ':' + a.getMinutes() + ':' + a.getSeconds();
+            date = a.toLocaleDateString();
+            document.getElementById('clock').innerHTML = "time: " + time + " date: " + date;
+        }, 1000);
+        cam = document.getElementById('.cam');
+        cam.addEventListener('click', () => {
+
+        });
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="siproject1.html"><img src="css/img/sip project logo.png" alt=""></a>
+            </div>
+            <ul>
+                <li><a href="siproject1.html">home </a></li>
+                <li><a href="about.html">about </a></li>
+                <li><a href="contact.html">contact </a></li>
+            </ul>
+            <!-- <div class="search">
+                <input type="text" placeholder="search your item">
+                <button class="btn"><img
+                        src="https://tse1.mm.bing.net/th?id=OIP.1Xh5hR-cKC1V7tBJl92I9wHaHa&pid=Api"></button>
+            </div> -->
+        </nav>
+        <div id="clock" class="clok"></div>
+    </header>
+    <div class="herb_attributes">
+        <nav>
+            <h3 class="attribute flex-all-center m-auto">Introduction</h3>
+            <h3 class="attribute flex-all-center m-auto">Properties</h3>
+            <h3 class="attribute flex-all-center m-auto">Wayofuse</h3>
+            <h3 class="attribute flex-all-center m-auto">Myths and Facts</h3>
+            <h3 class="attribute flex-all-center m-auto">History</h3>
+            <!-- <h3 class="attribute flex-all-center m-auto">Useage</h3> -->
+        </nav>
+    </div>
+    <main>
+        <div class="container1_1">
+            <div class="turmeric">
+                <br>
+                <div class="introduction">
+                    <div class="size-box">
+                        <b>Turmeric</b><br>
+                        <!-- introduction -->
+                    </div>
+                </div>
+                <div class=" properties">
+                    <div class="size-box">
+                        <b>properties of Turmeric</b>
+                        <br>
+                        <!-- properties -->
+                        1.The primary active component of turmeric — and the one that gives the spice its characteristic
+                        yellow color — is curcumin.
+                        Curcumin is the main active ingredient in turmeric. It has powerful anti-inflammatory effects
+                        and is a very strong antioxidant.
+
+                        <br>
+
+                        2.Curcumin is a natural anti-inflammatory compound.
+                        This anti-inflammatory ability might reduce the aggravation that people with arthritis feel in
+                        their joints.
+                        <br>
+
+                        3.Oxidative damage is believed to be one of the mechanisms behind aging and many diseases.
+                        Turmeric can increase the antioxidant capacity which prevents oxidative damage in body.
+                        <br>
+
+                        4.Perhaps the main benefit of curcumin when it comes to heart disease is improving the function
+                        of the endothelium, the lining of your blood vessels.
+                        The endothelial dysfunction is a major driver of heart disease. This is when your endothelium is
+                        unable to regulate blood pressure, blood clotting, and various other factors.
+                        <br>
+
+                        5.Glaucoma, a group of eye conditions, is one of the leading causes of blindness in people over
+                        age 60.
+                        But preliminary research published July 2018 in Scientific Reports shows topical curcumin
+                        treatments may help protect the eyes against degeneration.
+                        <br>
+
+                    </div>
+                </div>
+                <div class="wayofuse">
+                    <div class="size-box">
+                        <b>way to use Turmeric</b>
+                        <br>
+                        <!-- wayofuse -->
+                        1)Turmeric – along with ginger – is useful when you have a cold or flu.
+                        Being both anti-inflammatory and antioxidant, they may offer a much needed relief from coughing
+                        and sore throat.
+                        <br>
+
+                        2)Fresh root or powder are both excellent for cooking. Don’t forget to always combine them with
+                        black pepper to enhance curcumin absorption.
+                        However, curcumin is poorly absorbed into your bloodstream. In order to experience the full
+                        effects of curcumin, its bioavailability (the rate at which your body absorbs a substance) needs
+                        to improve.
+                        <br>
+                        It helps to consume it with black pepper, which contains piperine. Piperine is a natural
+                        substance that enhances the absorption of curcumin by 2,000% .
+                        <br>
+
+                        3)Adding turmeric to the milk has been an ancient Ayurvedic practice for healing wounds.
+                        It is mostly consumed before going to bed. Heat ½ teaspoon of turmeric paste in two drops of
+                        ghee or coconut oil.
+                        <br>
+                        Add milk to it. While you can have your golden milk as is, adding black pepper to the golden
+                        <br>
+                        milk will increase the retention of turmeric.
+                        You can also add cinnamon powder and honey for sweetness. If you like your nuts and seeds, this
+                        may be a good recipe to add a handful of them to the milk.
+                        <br>
+
+                        4)For allergies and cold
+                        In a table spoon of honey
+                        Combine all of these ingredients into 1 tsp. of raw local honey, then eat the honey.
+                        *A pinch of turmeric
+                        *A pinch of black pepper
+                        *A pinch of ginger
+                        <br>
+
+                    </div>
+                </div>
+                <div class="mythsandfacts">
+                    <div class="size-box">
+                        <b>myths and facts about Turmeric</b>
+                        <br>
+                        <!-- myths --><b>MYTHS</b>->
+                        <br>
+                        1.Turmeric is a simple culinary spice with few health benefits.
+                        <br>
+                        2.Turmeric's major anti-inflammatory component is curcumin.
+                        <br>
+                        3.The only way to increase the absorption of turmeric is with black pepper.<br>
+                        4.The only beneficial part of turmeric is curcumin.
+                        <br>
+                        <br>
+                        <!-- facts -->
+                        -><b>FACTS</b>
+                        1.Turmeric, sometimes called Indian saffron or the golden spice, is a tall plant that grows in
+                        Asia and Central America.<br>
+                        2.Although the turmeric plant thrives in many tropical locations, most of it is grown and
+                        consumed in India.<br>
+                        3.The active curcumin component that gives turmeric its color may have therapeutic benefits for
+                        the skin.<br>
+                        4.Turmeric contains plenty of other impressive compounds, such as flavonoids and beta-carotene
+                        that contribute to its healthy inflammatory response and antioxidant benefits.<br>
+                        5.Turmeric contains bioactive compounds with medicinal properties.<br>
+                        <br>
+                    </div>
+                </div>
+                <div class="history">
+                    <div class="size-box">
+                        <b>medicinal history of Turmeric</b>
+                        <br>
+                        <!--medicinal history -->-><b>HISTORY</b>
+                        This flavor-filled spice is primarily cultivated from the rhizomes, or roots, of a flowering
+                        plant that grows in India and other parts of Southeast Asia, and aside from giving curry its
+                        vibrant yellow color, turmeric is also known for having potent anti-inflammatory and antioxidant
+                        properties.<br>
+                        It has been used in India for thousands of years as both a spice and medicinal herb. Like many
+                        spices, turmeric (Curcuma longa) has a long history of use in traditional medicine.<br>
+                        While turmeric is a flavorsome spice that is nutritious to consume, it has also traditionally
+                        been used in Ayurvedic and Chinese medicine to treat inflammatory conditions, skin diseases,
+                        wound, and liver conditions.<br>
+                        Turmeric is used in Ayurvedic medicine as a digestive healing agent too.<br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="flex-all-center">
+        <p>copyright &copy; ancientayurveda.com</p>
+    </footer>
+    <script src="js/sliding.js"></script>
+
+</html>

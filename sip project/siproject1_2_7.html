@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>siproject1_2_7</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="shortcut icon" href="css/img/sip project logo.png" type="image/x-icon">
+    <script>
+        let a;
+        let time;
+        let date;
+        setInterval(() => {
+            a = new Date();
+            time = a.getHours() + ':' + a.getMinutes() + ':' + a.getSeconds();
+            date = a.toLocaleDateString();
+            document.getElementById('clock').innerHTML = "time: " + time + " date: " + date;
+        }, 1000);
+        cam = document.getElementById('.cam');
+        cam.addEventListener('click', () => {
+
+        });
+    </script>
+     
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="siproject1.html"><img src="css/img/sip project logo.png" alt=""></a>
+            </div>
+            <ul>
+                <li><a href="siproject1.html">home </a></li>
+                <li><a href="about.html">about </a></li>
+                <li><a href="contact.html">contact </a></li>
+            </ul>
+            <!-- <div class="search">
+                <input type="text" placeholder="search your item">
+                <button class="btn"><img
+                        src="https://tse1.mm.bing.net/th?id=OIP.1Xh5hR-cKC1V7tBJl92I9wHaHa&pid=Api"></button>
+            </div> -->
+        </nav>
+        <div id="clock" class="clok"></div>
+    </header>
+    <div class="illness">
+        <nav>
+            <h3 class="attribute flex-all-center m-auto">Remedy</h3>
+            <h3 class="attribute flex-all-center m-auto">Ingridients</h3>
+            <h3 class="attribute flex-all-center m-auto">Recipie</h3>
+            <h3 class="attribute flex-all-center m-auto">Dosage</h3>
+        </nav>
+    </div>
+    <main>
+        <div class="container1_2">
+            <div class="common_cold">
+                <div class="remedy">
+                    <div class="size-box">
+                        There are many different remedies that can be used to treat the common cold, and the specific treatment will depend on the individual's unique symptoms and constitution. Here are a few remedies that you can try at home to help alleviate cold symptoms:
+                        
+                        •	Rest: Getting plenty of rest is important when you have a cold, as it will help your body focus on healing.
+                        
+                        •	Hydration: Drinking plenty of fluids, such as water, juice, and broth, can help thin out mucus and reduce congestion.
+                        
+                        •	Humidifier: Using a humidifier can help add moisture to the air, which can help alleviate congestion and cough.
+                        
+                        •	Nasal irrigation: Using a saline solution to rinse out the nasal passages can help reduce congestion and improve breathing.
+                        
+                        •	Chicken soup: Chicken soup has been shown to have some anti-inflammatory effects and can help alleviate cold symptoms.
+                        
+                        •	Honey: Honey has been shown to be effective in relieving coughs and can be taken by itself or mixed with tea or warm water.
+                        
+                        It is important to remember that these remedies are meant to be used in addition to, not in place of, standard medical treatment. If your symptoms are severe or persist for more than a few days, you should consult a healthcare professional.
+                        </div>
+                </div>
+                <div class="ingridients">
+                    <div class="size-box"></div>
+                </div>
+                <div class="recipie">
+                    <div class="size-box"></div>
+                </div>
+                <div class="dosage">
+                    <div class="size-box"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="flex-all-center">
+        <p>copyright &copy; ancientayurveda.com</p>
+    </footer>
+<script src="js/sliding.js"></script>
+
+</html>

@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari&family=Rubik+80s+Fade&display=swap');
+
+:root {
+    --main-bg-color: #2487f0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--main-bg-color);
+    color: white;
+}
+
+.cam {
+    height: 10vh;
+    width: 10vh;
+    margin-left: 14vw;
+    border-radius: 100%;
+    transform: translateY(2vh);
+}
+
+.cam button {
+    height: 10vh;
+    width: 10vh;
+    border: 0.25vh solid black;
+    border-radius: 100%;
+    transform: translateY(2vh);
+}
+
+.cam img {
+    height: 10vh;
+    width: 10vh;
+    border-radius: 100%;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 7vh;
+    width: 13vw;
+    padding: 0 2vw;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+.container {
+    min-height: calc(100vh - 58px - 12vh);
+    background: url("img/sipbg.png");
+    font-family: 'Noto Serif Devanagari', serif;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slider {
+    margin: auto;
+    width: 80vw;
+    margin: 12px auto;
+    -webkit-margin-collapse: collapse;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 5px;
+    max-width: 91vw;
+    margin: auto;
+    display: inline-flex;
+    flex-wrap: wrap;
+    box-shadow: 5px 5px 20px 8px blanchedalmond;
+    overflow: scroll;
+}
+
+.card-item {
+    margin: 0 50px;
+    width: 20vw;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-item img {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: auto;
+    height: 17vh;
+    width: 12vw;
+    margin: 12px auto;
+    box-shadow: 5px 5px 20px 8px blanchedalmond;
+    -webkit-margin-collapse: collapse;
+}
+
+.lines {
+    font-family: 'Noto Serif Devanagari', serif;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 30vw;
+    height: 23px;
+    border-radius: 6px;
+    margin: 0 10px 0 56px;
+}
+
+.btn img {
+    height: 25px;
+    width: 25px;
+}
+
+.intro {
+    background: url("https://1.bp.blogspot.com/-83rFvhzbaLs/XJR5uh7OYsI/AAAAAAAAVNk/MU-NGuWx47YDojfTvkIwPAOuwvfrPaGrwCEwYBhgL/w1200-h630-p-k-no-nu/Ashwagandha.jpg");
+    width: 20vw;
+    height: 32vh;
+    color: rgb(0, 0, 0);
+    font-family: 'Noto Serif Devanagari', serif;
+    font-weight: bolder;
+}
+
+.exinfo {
+    background-position: -30vh;
+    height: 78vh;
+    border: 2px solid black;
+    color: var(--main-bg-color);
+    -webkit-text-stroke: 0.25px black;
+    font-weight: bolder;
+    border-radius: 10px;
+    width: 15vw;
+    overflow-y: scroll;
+    box-shadow: 0px 0px 10px 1px blanchedalmond;
+    padding: 1vh;
+    /* background: url(img/WhatsApp\ Image\ 2023-02-10\ at\ 20.27.11.jpg); */
+}
+
+/* .exinfo::after {
+    content: "";
+    background: url("https://tse3.mm.bing.net/th?id=OIP.6La6WTzhRgYcdcQ-tjg9cQAAAA&pid=Api");
+    opacity: 0.5;
+} */
+
+.about {
+    max-width: 50vw;
+    max-height: 50vh;
+    overflow-y: scroll;
+    border: 0.25vh solid var(--main-bg-color);
+    border-radius: 1vh;
+    padding: 1vh;
+    box-shadow: 0px 0px 10px 1px blanchedalmond;
+    font-weight: bolder;
+}
+
+.contact {
+    margin: 0;
+    padding: 1vh;
+    max-height: 12vh;
+    max-width: 40vw;
+    border: 0.25vh solid black;
+    border-radius: 1vh;
+    background: var(--main-bg-color);
+}
+
+h1 {
+    color: var(--main-bg-color);
+}
+
+.container1_1 {
+    min-height: calc(100vh - 58px - 12vh);
+    background: url("img/sipbg.png");
+    font-family: 'Noto Serif Devanagari', serif;
+    background-attachment: scroll;
+    background-size: contain;
+    background-repeat: repeat;
+    overflow: hidden;
+}
+
+.container1_2 {
+    min-height: calc(100vh - 58px - 12vh);
+    background: url("img/sipbg.png");
+    font-family: 'Noto Serif Devanagari', serif;
+    background-attachment: scroll;
+    background-size: contain;
+    background-repeat: repeat;
+    overflow: hidden;
+}
+
+.herb_attributes nav {
+    background: var(--main-bg-color);
+    display: flex;
+    flex-direction: row;
+    padding: 1vh 0;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.illness nav {
+    background: var(--main-bg-color);
+    display: flex;
+    flex-direction: row;
+    padding: 1vh 0;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.attribute {
+    padding: 2vh 5vh;
+    display: block;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.attribute:hover {
+    color: white;
+    background: rgb(0, 235, 248);
+}
+
+.amla {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+    width: 500vw;
+}
+
+.amla_murabba {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+    width: 500vw;
+}
+
+.ashwagandha {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+    width: 500vw;
+}
+
+.bibhitaki {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+    width: 500vw;
+}
+
+.bitter_melon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+    width: 500vw;
+}
+
+.boosewellia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+    width: 500vw;
+}
+
+.bramhi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+    width: 500vw;
+}
+
+.cardamom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+    width: 500vw;
+}
+
+.cumin {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+    width: 500vw;
+}
+
+.gotu_kola {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+    width: 500vw;
+}
+
+.haritaki {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+    width: 500vw;
+}
+
+.licorice {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+    width: 500vw;
+}
+
+.turmeric {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+    width: 500vw;
+}
+
+.garlic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+    width: 500vw;
+}
+
+.ginger {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+    width: 500vw;
+}
+
+.summer_heat {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+    width: 400vw;
+}
+
+.sore_throat {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+    width: 400vw;
+}
+
+.nausea {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+    width: 400vw;
+}
+
+.dry_cough {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+    width: 400vw;
+}
+
+.headache {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+    width: 400vw;
+}
+
+.stomach_ache {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+    width: 400vw;
+}
+
+.common_cold {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+    width: 400vw;
+}
+
+.heartburn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+    width: 400vw;
+}
+
+.gas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+    width: 400vw;
+}
+
+.constipation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+    width: 400vw;
+}
+
+.anemia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+    width: 400vw;
+}
+
+.depression {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+    width: 400vw;
+}
+
+.allergy {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+    width: 400vw;
+}
+
+.motions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+    width: 400vw;
+}
+
+.fever {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+    width: 400vw;
+}
+
+.introduction {
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wayofuse {
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mythsandfacts {
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.history {
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.properties {
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.remedy {
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ingridients {
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recipie {
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dosage {
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.director{
+    background: var(--main-bg-color);
+    border: 0.25vh solid black;
+    width: 30vw;
+    height: 20vh;
+    border-radius: 0.5vh;
+}
+
+.indexbox a img {
+    height: 7vh;
+    width: 13vw;
+    display: flex;
+}
+
+footer {
+    height: 15vh;
+    background: var(--main-bg-color);
+    color: white;
+}

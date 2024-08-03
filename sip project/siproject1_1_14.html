@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>siproject1_1_14</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="shortcut icon" href="css/img/sip project logo.png" type="image/x-icon">
+    <script>
+        let a;
+        let time;
+        let date;
+        setInterval(() => {
+            a = new Date();
+            time = a.getHours() + ':' + a.getMinutes() + ':' + a.getSeconds();
+            date = a.toLocaleDateString();
+            document.getElementById('clock').innerHTML = "time: " + time + " date: " + date;
+        }, 1000);
+        cam = document.getElementById('.cam');
+        cam.addEventListener('click', () => {
+
+        });
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="siproject1.html"><img src="css/img/sip project logo.png" alt=""></a>
+            </div>
+            <ul>
+                <li><a href="siproject1.html">home </a></li>
+                <li><a href="about.html">about </a></li>
+                <li><a href="contact.html">contact </a></li>
+            </ul>
+            <!-- <div class="search">
+                <input type="text" placeholder="search your item">
+                <button class="btn"><img
+                        src="https://tse1.mm.bing.net/th?id=OIP.1Xh5hR-cKC1V7tBJl92I9wHaHa&pid=Api"></button>
+            </div> -->
+        </nav>
+        <div id="clock" class="clok"></div>
+    </header>
+    <div class="herb_attributes">
+        <nav>
+            <h3 class="attribute flex-all-center m-auto">Introduction</h3>
+            <h3 class="attribute flex-all-center m-auto">Properties</h3>
+            <h3 class="attribute flex-all-center m-auto">Wayofuse</h3>
+            <h3 class="attribute flex-all-center m-auto">Myths and Facts</h3>
+            <h3 class="attribute flex-all-center m-auto">History</h3>
+            <!-- <h3 class="attribute flex-all-center m-auto">Useage</h3> -->
+        </nav>
+    </div>
+    <main>
+        <div class="container1_1">
+            <div class="garlic">
+                <br>
+                <div class="introduction">
+                    <div class="size-box">
+                        <b>Garlic</b><br>
+                        <!-- introduction -->Garlic is a plant in the onion family, commonly used as a seasoning in
+                        cooking. It has a distinctive pungent, spicy flavor and aroma. It's often used in Mediterranean,
+                        Asian and African cuisine. The bulb of the garlic plant is divided into smaller segments called
+                        cloves, which can be used whole or chopped, crushed or pressed for their juice.
+                        <br>
+                        Garlic has been used for medicinal purposes for thousands of years, and has been shown to have
+                        various health benefits, such as reducing the risk of heart disease, lowering blood pressure,
+                        and improving cholesterol levels. Garlic is also believed to have antioxidant,
+                        anti-inflammatory, and antimicrobial properties. It's also used to boost the immune system and
+                        may have cancer-fighting properties.
+                    </div>
+                </div>
+                <div class=" properties">
+                    <div class="size-box">
+                        <b>properties of Garlic</b>
+                        <br>
+                        <!-- properties -->Garlic has been shown to have several properties that can promote health and
+                        wellness. Some of these properties include:
+                        <br>
+                        <b>Cardiovascular health: </b>Garlic has been shown to reduce the risk of heart disease by
+                        lowering
+                        blood pressure, improving cholesterol levels, and preventing blood clots.
+                        <br>
+                        <b>Anti-inflammatory:</b> Garlic has anti-inflammatory properties that can help to reduce
+                        inflammation
+                        in the body, potentially providing relief from conditions such as osteoarthritis and rheumatoid
+                        arthritis.
+                        <br>
+                        <b>Antioxidant properties: </b>Garlic is a good source of antioxidants, which can help to
+                        protect the
+                        body against damage caused by free radicals.
+                        <br>
+                        <b>Immune system boost:</b> Garlic is believed to boost the immune system and may help to
+                        prevent colds
+                        and other infections.
+                        <br>
+                        <b>Cancer-fighting properties: </b>Some studies suggest that garlic may have cancer-fighting
+                        properties, particularly for certain types of cancer such as stomach and colon cancer. However,
+                        more research is needed to confirm these effects.
+                        <br>
+                        <b>Antimicrobial properties: </b>Garlic has antimicrobial properties that can help to fight off
+                        bacteria, viruses, and other harmful microorganisms.
+                    </div>
+                </div>
+                <div class="wayofuse">
+                    <div class="size-box">
+                        <b>way to use Garlic</b>
+                        <br>
+                        <!-- wayofuse -->There are several ways to use garlic for its potential health benefits:
+                        <br>
+                        Garlic can be used in cooking to add flavor and aroma to dishes. It can be used in a variety of
+                        cuisines such as Mediterranean, Asian, and African. It can be added whole, chopped, minced, or
+                        pressed for its juice, to soups, stews, marinades, sauces, and stir-fries.
+                        <br>
+                        <b>Raw Consumption: </b>Some people believe that consuming raw garlic is more beneficial than
+                        cooked garlic. You can chop or press a clove of garlic and add it to salads, sandwiches, or
+                        smoothies.
+                        <br>
+                        <b>Supplements: </b>Garlic supplements are available in various forms such as tablets, capsules,
+                        and
+                        oils. These supplements are standardized to contain a specific amount of allicin, which is
+                        believed to be the active ingredient in garlic responsible for many of its health benefits.
+                        <br>
+                        <b>Oils and extracts:</b> Garlic oils and extracts can be used as a topical treatment for
+                        conditions
+                        such as fungal infections, warts, and corns.
+                    </div>
+                </div>
+                <div class="mythsandfacts">
+                    <div class="size-box">
+                        <b>myths and facts about Garlic</b>
+                        <br>
+                        <!-- myths -->There are several myths and misconceptions about garlic and its potential health
+                        benefits. Some of these include:
+                        <br>
+                        <b>Garlic can cure all diseases:</b> Garlic has several health benefits, but it is not a panacea
+                        and
+                        cannot cure all diseases. It's always best to consult with a healthcare professional or a
+                        qualified practitioner of traditional medicine for personalized advice and guidance.
+                        <br>
+                        <b>Raw garlic is more beneficial than cooked garlic:</b> Both raw and cooked garlic have health
+                        benefits, but cooking garlic can increase its bioavailability and make it easier to digest.
+                        <br>
+                        <b>Garlic supplements are better than fresh garlic: </b>Garlic supplements are standardized to
+                        contain
+                        a specific amount of allicin, but the allicin content in supplements can vary. Fresh garlic
+                        contains allicin, but also other beneficial compounds such as flavonoids and sulfur compounds.
+                        <br>
+                        <b>Garlic is a blood thinner: </b>Garlic can help lower blood pressure, but it is not considered
+                        a
+                        blood thinner. It's important to consult with a healthcare professional before consuming large
+                        amounts of garlic if you are taking blood-thinning medications.
+                        <br>
+                        <b>Garlic can repel vampires: </b>Garlic has been used for medicinal purposes for thousands of
+                        years,
+                        but it does not have the ability to repel vampires.
+                        <br>
+                        <!-- facts -->Here are some facts about garlic:
+                        <br>
+                        Garlic is a plant in the onion family, commonly used as a seasoning in cooking. It has a
+                        distinctive pungent, spicy flavor and aroma.
+                        <br>
+                        Garlic has been used for medicinal purposes for thousands of years, and has been shown to have
+                        various health benefits, such as reducing the risk of heart disease, lowering blood pressure,
+                        and improving cholesterol levels.
+                        <br>
+                        Garlic is a good source of antioxidants, which can help to protect the body against damage
+                        caused by free radicals.
+                        <br>
+                        Garlic is believed to boost the immune system and may help to prevent colds and other
+                        infections.
+                        <br>
+                        Garlic may have cancer-fighting properties, but more research is needed to confirm these
+                        effects.
+                        <br>
+                        Garlic has antimicrobial properties that can help to fight off bacteria, viruses, and other
+                        harmful microorganisms.
+                        <br>
+                        Garlic can be used in cooking to add flavor and aroma to dishes. It can be added whole, chopped,
+                        minced, or pressed for its juice, to soups, stews, marinades, sauces, and stir-fries.
+                        <br>
+                        Garlic supplements are available in various forms such as tablets, capsules, and oils.
+                        <br>
+                        Garlic oils and extracts can be used as a topical treatment for conditions such as fungal
+                        infections, warts, and corns.
+                        <br>
+                        Garlic can have some side effects if consumed in large amounts, such as causing bad breath, body
+                        odor, and stomach upset.
+                    </div>
+                </div>
+                <div class="history">
+                    <div class="size-box">
+                        <b>medicinal history of Garlic</b>
+                        <br>
+                        <!--medicinal history -->Garlic has a long history of use in traditional medicine, dating back to ancient civilizations. The ancient Egyptians, Greeks, and Romans all used garlic for its medicinal properties. They believed that garlic could treat a variety of ailments such as respiratory infections, fever, and even the plague.
+                        <br>
+In traditional Chinese medicine, garlic is considered a warming herb that can help to stimulate the circulation of qi (energy) and blood. It is used to treat conditions such as hypertension, high cholesterol, and diabetes.
+<br>
+In Ayurvedic medicine, garlic is considered a rasayana, a type of herb that can help to promote overall health and longevity. It is used to treat a variety of conditions such as respiratory infections, indigestion, and diabetes.
+<br>
+Throughout history, garlic has been used to treat a wide variety of health conditions, and has been shown to have various health benefits, such as reducing the risk of heart disease, lowering blood pressure, and improving cholesterol levels. It's also believed to have antioxidant, anti-inflammatory, and antimicrobial properties.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="flex-all-center">
+        <p>copyright &copy; ancientayurveda.com</p>
+    </footer>
+    <script src="js/sliding.js"></script>
+
+</html>
